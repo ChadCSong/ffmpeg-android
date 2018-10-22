@@ -15,6 +15,8 @@ Instructions
 ----
 * Set environment variable
   1. export ANDROID_NDK={Android NDK Base Path}
+* Pull all submodule from repositories
+  1. git pull && git submodule init && git submodule update && git submodule status
 * Run following commands to compile ffmpeg
   1. sudo apt-get --quiet --yes install build-essential git autoconf libtool pkg-config gperf gettext yasm python-lxml
   2. ./init_update_libs.sh
